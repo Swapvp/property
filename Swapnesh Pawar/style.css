@@ -1,0 +1,133 @@
+.body{
+    margin:  0% 10%;
+}
+.icon-main {
+    display: flex;
+    margin: 0 10%;
+    padding: 6%;
+}
+
+.icon-txt {
+    text-align: center;
+    margin-bottom: 8%;
+}
+
+.icon-img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.icon-btn{
+    display: block;
+    margin: 20px auto;
+    /* margin-left: auto;
+    margin-right: auto; */
+    padding: 8px 16px;
+    border-radius: 14px;
+    border: none;
+    background-color: #1BBC9B;
+    color: white;
+
+}
+
+
+@media screen {
+    .icon-btn{
+        margin-bottom: 20px;
+    }
+
+    .trust-badges{
+        display: block;
+    }
+    
+}
+/* .icons{
+    width: 50%;
+} */
+
+.project-right {
+    background-color: black;
+    
+}
+
+.property-col{
+    display: inline-block;
+    margin: 5%;
+    padding: 2%;
+}
+
+.trust-badges{
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.round{
+    padding: 32px;
+    border-radius: 100%;
+    background-color: white;
+    margin: 20px;
+    text-align: center;
+
+}
+
+.Project-title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: -30px;
+    color: white;
+    right: -6px;
+}
+
+.Project-title span{
+    /* color: white; */
+    padding: 20px;
+}
+
+.testimonial {
+    text-align: center;
+    margin:5% 0;
+}
+
+.developers-img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.developers-info{
+    text-align: center;
+
+}
+
+.developers-img img{
+    width: 200px;
+    height: 50px;
+    margin: 40px;
+}
+
+.sale-btn{
+ background-color: #1BBC9B;
+ padding: 8px 20px;
+ border: none;
+ box-shadow: 1px 1px;
+}
+#list-property{
+    margin-left: 40px;
+    margin-top: 60px;
+}
+
+.form-color{
+    background-color: #1BBC9B;
+}
+
+.vl {
+    border-left: 6px solid green;
+    height: 500px;
+  }
